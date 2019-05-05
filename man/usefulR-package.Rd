@@ -9,7 +9,7 @@
 Collection of useful R packages.
 }
 \author{
-\strong{Maintainer}: Georg Unterholzner
+\strong{Maintainer}: Georg Unterholzner \email{georg.unterholzner.coding@gmail.com}
 
 }
 \keyword{internal}
