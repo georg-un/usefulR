@@ -1,12 +1,15 @@
-#' @title # %!in% (not-in)
+#' @title # Not-in
+#' @name not-in
 #'
 #' @description Opposite of %in%
 #' @param x (string) vector or NULL: the values to be matched.
 #' @param table (string) ector or NULL: the values to be matched against.
+#' @usage NULL
 #'
 #' @export
-#' @examples
-#' librastall_github("georg-un/usefulR")
+#' @examples \dontrun{
+#' 1 %!in% c(2,3,4,5)  # TRUE
+#' }
 '%!in%' <- function(x, table) {
   return ( !('%in%'(x, table)) )
 }
