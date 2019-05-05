@@ -4,7 +4,7 @@
 #' Useful for multi-target regression where the target variable is a point in n-dimensional space.
 #' @param y_true True labels (tensor)
 #' @param y_pred Predictions (tensor of the same shape as y_true)
-#' @examples \dontrun {
+#' @examples \dontrun{
 #' # Create custom metric
 #' metric_mean_euclid_dist <- custom_metric("mean_euclid_dist", function(y_true, y_pred) {
 #'     return( mean_euclid_dist(y_true, y_pred) )
@@ -30,7 +30,7 @@ mean_euclid_dist <- function(y_true, y_pred){
 #' Useful for multi-target regression where the target variable is a point in n-dimensional space.
 #' @param y_true True labels (tensor)
 #' @param y_pred Predictions (tensor of the same shape as y_true)
-#' @examples \dontrun {
+#' @examples \dontrun{
 #' # Create custom metric
 #' metric_mean_squared_euclid_dist <- custom_metric("mean_squared_euclid_dist", function(y_true, y_pred) {
 #'     return( mean_squared_euclid_dist(y_true, y_pred) )

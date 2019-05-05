@@ -16,7 +16,7 @@ A custom keras loss function which calculates the mean euclidean distance betwee
 Useful for multi-target regression where the target variable is a point in n-dimensional space.
 }
 \examples{
-\dontrun {
+\dontrun{
 # Create custom metric
 metric_mean_euclid_dist <- custom_metric("mean_euclid_dist", function(y_true, y_pred) {
     return( mean_euclid_dist(y_true, y_pred) )
