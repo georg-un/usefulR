@@ -10,7 +10,7 @@ librastall(package)
 \item{package}{The name of the library to load and install (string)}
 }
 \description{
-\strong{libra}ry() + in\strong{stall}.packages()
+\strong{libra}ry() + in\strong{stall}.packages() \cr
 Import a library and install it, if it is not already installed.
 }
 \examples{

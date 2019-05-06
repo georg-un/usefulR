@@ -10,7 +10,7 @@ librastall_github(repo)
 \item{repo}{The name of the repo to load and install (string)}
 }
 \description{
-\strong{libra}ry() + in\strong{stall}_github()
+\strong{libra}ry() + in\strong{stall}_github() \cr
 Import a library and install it, if it is not already installed.
 }
 \examples{

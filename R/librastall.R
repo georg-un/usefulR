@@ -1,6 +1,6 @@
 #' @title Load and Install
 #'
-#' @description \strong{libra}ry() + in\strong{stall}.packages()
+#' @description \strong{libra}ry() + in\strong{stall}.packages() \cr
 #' Import a library and install it, if it is not already installed.
 #' @param package The name of the library to load and install (string)
 #' @examples
@@ -16,7 +16,7 @@ librastall <- function(package){
 
 #' @title Load and Install from Github
 #'
-#' @description \strong{libra}ry() + in\strong{stall}_github()
+#' @description \strong{libra}ry() + in\strong{stall}_github() \cr
 #' Import a library and install it, if it is not already installed.
 #' @param repo The name of the repo to load and install (string)
 #' @examples
