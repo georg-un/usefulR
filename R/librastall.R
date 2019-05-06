@@ -27,9 +27,8 @@ librastall_github <- function(repo){
     install.packages("devtools", dep = T)
     require("devtools", character.only = T)
   }
-
-  if(!require(package, character.only = T)){
-    install_github(repo = as.character(repo))
+  if(!require(strsplit(repo, "/")[[1]][2], character.only = T)){
+    install_github(repo)
     require(package, character.only = T)
   }
 }
