@@ -1,7 +1,8 @@
-#' @title librastall (library() + install.packages())
+#' @title Load and Install
 #'
-#' @description Import a library and install it if it is not already installed.
-#' @param package (string) The name of the library to load and install
+#' @description \strong{libra}ry() + in\strong{stall}.packages()
+#' Import a library and install it, if it is not already installed.
+#' @param package The name of the library to load and install (string)
 #' @examples
 #' librastall("dplyr")
 #' @export
@@ -13,10 +14,11 @@ librastall <- function(package){
 }
 
 
-#' @title librastall_github (library() + install.github())
+#' @title Load and Install from Github
 #'
-#' @description Import a library and install it if it is not already installed.
-#' @param repo (string) The name of the repo to load and install
+#' @description \strong{libra}ry() + in\strong{stall}_github()
+#' Import a library and install it, if it is not already installed.
+#' @param repo The name of the repo to load and install (string)
 #' @examples
 #' librastall_github("georg-un/usefulR")
 #' @export

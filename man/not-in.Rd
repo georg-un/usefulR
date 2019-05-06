@@ -3,17 +3,18 @@
 \name{not-in}
 \alias{not-in}
 \alias{\%!in\%}
-\title{# Not-in}
+\title{Not-In}
 \arguments{
-\item{x}{(string) vector or NULL: the values to be matched.}
+\item{x}{vector or NULL: the values to be matched.}
 
-\item{table}{(string) ector or NULL: the values to be matched against.}
+\item{table}{vector or NULL: the values to be matched against.}
 }
 \description{
-Opposite of %in%
+Opposite of \%in\%
 }
 \examples{
 \dontrun{
-1 \%!in\% c(2,3,4,5)  # TRUE
+x <- 1
+x \%!in\% c(2,3,4,5)  # TRUE
 }
 }

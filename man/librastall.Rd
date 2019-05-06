@@ -2,15 +2,16 @@
 % Please edit documentation in R/librastall.R
 \name{librastall}
 \alias{librastall}
-\title{librastall (library() + install.packages())}
+\title{Load and Install}
 \usage{
 librastall(package)
 }
 \arguments{
-\item{package}{(string) The name of the library to load and install}
+\item{package}{The name of the library to load and install (string)}
 }
 \description{
-Import a library and install it if it is not already installed.
+\strong{libra}ry() + in\strong{stall}.packages()
+Import a library and install it, if it is not already installed.
 }
 \examples{
 librastall("dplyr")

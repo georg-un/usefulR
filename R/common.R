@@ -1,24 +1,25 @@
-#' @title # Not-in
+#' @title Not-In
 #' @name not-in
 #'
-#' @description Opposite of %in%
-#' @param x (string) vector or NULL: the values to be matched.
-#' @param table (string) ector or NULL: the values to be matched against.
+#' @description Opposite of \%in\%
+#' @param x vector or NULL: the values to be matched.
+#' @param table vector or NULL: the values to be matched against.
 #' @usage NULL
 #'
 #' @export
 #' @examples \dontrun{
-#' 1 %!in% c(2,3,4,5)  # TRUE
+#' x <- 1
+#' x %!in% c(2,3,4,5)  # TRUE
 #' }
 '%!in%' <- function(x, table) {
   return ( !('%in%'(x, table)) )
 }
 
 
-#' @title # get_mode
+#' @title Get Mode
 #'
 #' @description Get the mode of a vector.
-#' @param x (vector) A vector
+#' @param x A vector
 #' @export
 #' @examples
 #' x <- c(1,2,3,4,5,5,5)

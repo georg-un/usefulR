@@ -2,12 +2,12 @@
 % Please edit documentation in R/common.R
 \name{get_mode}
 \alias{get_mode}
-\title{# get_mode}
+\title{Get Mode}
 \usage{
 get_mode(x)
 }
 \arguments{
-\item{x}{(vector) A vector}
+\item{x}{A vector}
 }
 \description{
 Get the mode of a vector.

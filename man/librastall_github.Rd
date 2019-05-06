@@ -2,15 +2,16 @@
 % Please edit documentation in R/librastall.R
 \name{librastall_github}
 \alias{librastall_github}
-\title{librastall_github (library() + install.github())}
+\title{Load and Install from Github}
 \usage{
 librastall_github(repo)
 }
 \arguments{
-\item{repo}{(string) The name of the repo to load and install}
+\item{repo}{The name of the repo to load and install (string)}
 }
 \description{
-Import a library and install it if it is not already installed.
+\strong{libra}ry() + in\strong{stall}_github()
+Import a library and install it, if it is not already installed.
 }
 \examples{
 librastall_github("georg-un/usefulR")
